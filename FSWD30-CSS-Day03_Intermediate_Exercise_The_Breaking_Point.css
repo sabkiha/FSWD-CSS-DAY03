@@ -1,45 +1,38 @@
 body {
 	font-family: Arial;
-	background: lightblue;
 }
 
 h1 {
-	text-shadow: 2px 2px black;
-	color:  white;
+	color:  blue;
 
 }
+
 
 #p01	{
 	background-color: #bc1339;
-	
 	color: white;
 	width: 500px;
-	height: 150px;
+	height: 300px;
 	padding: 20px;
-	-webkit-animation: left-right 5s infinite;
-	animation: left-right 5s infinite;
-}
-
-@keyframes left-right {
-  from {transform: translateX(0px);}
-  to {transform: translateX(800px);}
+	margin: 5px;
 }
 
 #p02	{
 	background-color: blue;
-	box-shadow: 10px 10px yellow;
 	color: white;
 	width: 500px;
-	height: 150px;
+	height: 250px;
 	padding: 20px;
+	margin: 5px;
 }
 
 #p03	{
 	background-color: #bc1339;
 	color: white;
 	width: 500px;
-	height: 150px;
+	height: 200px;
 	padding: 20px;
+	margin: 5px;
 }
 
 
@@ -49,6 +42,7 @@ h1 {
 	width: 500px;
 	height: 150px;
 	padding: 20px;
+	margin: 5px;
 }
 
 
@@ -56,8 +50,29 @@ h1 {
 	background-color: #bc1339;
 	color: white;
 	width: 500px;
-	height: 150px;
+	height: 100px;
 	padding: 20px;
+	margin: 5px;
 }
 
+.main {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+
+@media screen and (min-width: 780px){
+   .main {
+    -webkit-flex-direction: row;
+    flex-direction: row;
+  }
+
+  @media screen and (max-width: 781px){
+
+  /* main-axis top to bottom */ 
+  .main {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
 
