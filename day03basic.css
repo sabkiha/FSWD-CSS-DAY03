@@ -1,0 +1,81 @@
+body {
+	background: #EEE;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.transition {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.transition h1 {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+}
+
+#fonts {
+	width: 40%;
+	padding: 50px 0;
+	margin: 60px 0;
+	background: grey;
+	cursor:  pointer;
+	transition: 2s;
+	box-shadow: 10px 10px 0px 0px black;
+}
+
+#tricks {
+	width: 50%;
+	padding: 50px 0;
+	border-radius: 50px;
+	background: yellow;
+	cursor: pointer;
+	transition: 4s;
+	animation-name: drive;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+}
+
+#ling {
+	width: 30%;
+	height: 40%;
+	padding: 50px 0;
+	border-radius: 20px;
+	background: orange;
+	cursor: pointer;
+	margin-top: 60px;
+	transition: width: 6s;
+	transition-timing-function: ease-out;}
+
+#fonts:hover {
+	background: red;
+	transform: rotate(360deg);
+
+}
+
+#tricks:hover {
+	background: blue;
+}
+
+#ling:hover {
+	background: green;
+}
+
+@keyframes drive {
+	from { transform: translateX(-400px)}
+	to { transform: translateX(800px)}
+}
+
+#ling:hover {
+	width: 40%;
+	height: 50%;
+}
