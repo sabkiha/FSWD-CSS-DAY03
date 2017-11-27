@@ -1,0 +1,63 @@
+body {
+	font-family: Arial;
+	background: lightblue;
+}
+
+h1 {
+	text-shadow: 2px 2px black;
+	color:  white;
+
+}
+
+#p01	{
+	background-color: #bc1339;
+	
+	color: white;
+	width: 500px;
+	height: 150px;
+	padding: 20px;
+	-webkit-animation: left-right 5s infinite;
+	animation: left-right 5s infinite;
+}
+
+@keyframes left-right {
+  from {transform: translateX(0px);}
+  to {transform: translateX(800px);}
+}
+
+#p02	{
+	background-color: blue;
+	box-shadow: 10px 10px yellow;
+	color: white;
+	width: 500px;
+	height: 150px;
+	padding: 20px;
+}
+
+#p03	{
+	background-color: #bc1339;
+	color: white;
+	width: 500px;
+	height: 150px;
+	padding: 20px;
+}
+
+
+#p04	{
+	background-color: blue;
+	color: white;
+	width: 500px;
+	height: 150px;
+	padding: 20px;
+}
+
+
+#p05	{
+	background-color: #bc1339;
+	color: white;
+	width: 500px;
+	height: 150px;
+	padding: 20px;
+}
+
+
